@@ -19,5 +19,46 @@ body {
 .number_input {
 	border-width: 0px 0px 2px 0px;
 	width: 40px;
-	height: 20px;
+	height: 16px;
 }
+
+.date {
+	margin-left: 50px;
+}
+
+.number_input_date_month { 
+	border-width: 0px 0px 2px 0px;
+	margin-left: 10px;
+	width: 140px	;
+	height: 16px;
+ }
+
+ .number_input_date_day {
+ 	border-width: 0px 0px 2px 0px;
+	width: 40px;
+	height: 16px;
+ 	margin: 0 10px 0 10px;
+ }
+
+ .number_input_date_year {
+ 	font-size: 16px;
+ 	border-width: 0px 0px 2px 0px;
+	width: 20px;
+	height: 16px;
+ 	margin: 0 10px 0 0px;
+ }
+
+.container_info{
+	display: flex;
+	justify-content: space-between;
+ 	width: 100%;
+ 	max-width: 1200px;
+ 	height: 300px;
+
+ 	margin: 0 auto;
+ }
+
+ .container_info_left {
+ 	width: 600px;
+ 	margin-top: 10px;
+ }
